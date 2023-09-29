@@ -43,7 +43,7 @@
                 }
 
             $userInput = $_POST['number'];
-            $n = (int)$userInput;
+            $n = $userInput;
             $f = factorial($n);
 
                 echo 'Le factoriel de ' .$n. ' est ' .$f. '! <br><br>';
