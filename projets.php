@@ -50,7 +50,7 @@
 
                 echo 'Nous voulons egalement connaitre les nombres pairs et impairs avant ' .$n. ' ! Les voici :<br><br>';
                     for($i = 1; $i <= $n; $i++){
-                        if($i % 2){
+                        if($i % 2 == 0){
                             echo 'Pair : ' .$i. ' ! <br><br>';
                         }
                         else{
